@@ -1,0 +1,62 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,
+h6,pre,form,fieldset,input,p,blockquote,table,
+th,td { margin: 0; padding: 0; }
+fieldset,img,abbr { border: 0; }
+address,caption,cite,code,dfn,em,h1,h2,h3,
+h4,h5,h6,strong,th,var { font-style: normal; font-weight: normal; }
+caption,th { text-align: left; }
+q:before,q:after { content: ''; }
+a { text-decoration: none; }
+
+body { 
+	background-image: url(../images/dark-tile.jpg);
+}
+
+a, a:visited, a:active, a:link {
+	color: #3478e3;
+}
+
+a:hover {
+	color: #d54e21;
+}
+
+#stage {
+	width: 980px;
+	height: 760px;
+	margin: 40px auto;
+	position: relative;
+}
+
+
+
+
+
+#frm {
+		position: absolute;
+		height: 90%;
+		width: 70%;
+		left: 15%;
+		top: 5%;
+		
+		text-align: left;
+		letter-spacing: 1px;
+		font-size: 2.5em;
+		font-weight: 400;
+		font-family: 'IM Fell Great Primer','Open Sans';
+		text-shadow: #333 0px 2px 1px;
+		background: transparent;
+		overflow: hidden;
+		padding: 0.5em;
+	}
+	#frm span {
+		position: relative;
+		text-align: center;
+		z-index: 1;
+	}
+	#mtxform {
+		position: relative;
+		z-index: 10;
+	}
+	.hidden {
+		visibility: hidden;
+	}

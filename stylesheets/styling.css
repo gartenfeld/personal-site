@@ -1,0 +1,104 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,
+h6,pre,form,fieldset,input,p,blockquote,table,
+th,td { margin: 0; padding: 0; }
+fieldset,img,abbr { border: 0; }
+address,caption,cite,code,dfn,em,h1,h2,h3,
+h4,h5,h6,strong,th,var { font-style: normal; font-weight: normal; }
+caption,th { text-align: left; }
+q:before,q:after { content: ''; }
+a { text-decoration: none; }
+
+body { 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	background-image: url(../images/canvas.png);
+}
+
+a, a:visited, a:active, a:link {
+	color: #3478e3;
+}
+
+a:hover {
+	color: #d54e21;
+}
+
+#stage {
+	margin-top: 40px;
+	margin-left: 10%;
+	width: 900px;
+}
+
+#nav-bar {
+	text-align: right;
+	margin-right: 12%;
+}
+
+a.current-tab, a.tab {
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #C22222;
+	margin: 0 10px 0 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.current-tab {
+	border-bottom: solid 3px;
+}
+
+a:hover.current-tab, a:hover.tab {
+	color: #C22222;	
+}
+
+a:hover.tab {
+	border-bottom: solid 3px;
+}
+
+.line-break {
+	margin-bottom: 20px;
+}
+
+#article {
+	font-family: 'IM Fell Great Primer', Georgia, serif;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.heading {
+	font-size: 24px;
+	font-weight: 600;
+	color: #B22222;
+	margin: 22px 0 14px 0;
+}
+
+.section {
+	background-image: url(../images/section.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	margin-top: 1em;
+	margin-left: 145px;
+	clear:both;
+}
+
+#article p {
+	font-size: 24px;
+	width: 27em;
+	text-align: justify;
+	line-height: 1.4em;
+	text-indent: 1em;
+	margin: 10px 0 12px 16px;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 600;
+	color: #555;
+}
+
+img.balcony { 
+	display: block;
+	margin-top: 5px;
+	margin-left: 145px;
+
+    width: 400px;
+    border-radius: 5px;
+}
+

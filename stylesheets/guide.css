@@ -1,0 +1,200 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,
+h6,pre,form,fieldset,input,p,blockquote,table,
+th,td { margin: 0; padding: 0; }
+fieldset,img,abbr { border: 0; }
+address,caption,cite,code,dfn,em,h1,h2,h3,
+h4,h5,h6,strong,th,var { font-style: normal; font-weight: normal; }
+caption,th { text-align: left; }
+q:before,q:after { content: ''; }
+a { text-decoration: none; }
+
+body { 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #e6e6e6;
+
+}
+
+a, a:visited, a:active, a:link {
+	color: #3478e3;
+}
+
+a:hover {
+	color: #d54e21;
+}
+
+#stage-centre {
+	margin: 0 auto;
+	position: relative;
+	width: 980px;
+}
+
+#stage {
+	background: #f7f7f7;
+	border: 1px solid #fff;
+	width: 980px;
+	margin: 20px auto;
+	padding-bottom: 40px;
+	float: left;
+}
+
+#banner-frame {
+	background-color: #fff;
+	box-shadow: 1px 1px 10px rgba(10, 10, 10, 0.22);
+	-moz-box-shadow: 1px 1px 10px rgba(10, 10, 10, 0.22);
+	border-top: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	width: 75%;
+	margin: 20px 0 15px 20px;
+	padding-bottom: 9px;
+
+}
+
+#banner-text {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	font-size: 40px;
+	line-height: 1em;
+	display: inline-block;
+	padding: 8px 2px 0 18px;
+}
+
+#trail, #preamble {
+	width: 860px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#volume {
+	width: 880px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#trail {
+	height: 33px;
+	border: 1px solid #ededed;
+	margin: 18px 0 0 18px;
+	background-color: #fff;
+}
+
+#trail-text {
+	margin: 6px 0 0px 7px;
+	color: #6e6e6e;
+	font-size: 18px;
+	display: inline;
+	float: left;
+}
+
+#trail img {
+	margin: 4px 0 7px 12px;
+	color: #6e6e6e;
+	display: inline;
+	float: left;
+}
+
+#preamble {
+	border: 2px dashed #dbdbdb;
+	margin: 14px 0 12px 20px;
+	background-color: #fff;
+}
+
+#preamble p {
+	margin: 14px 16px 14px 16px;
+	font-size: 18px;
+}
+
+#volume {
+	margin: 10px 10px 15px 20px;
+	padding-top: 3px;
+
+}
+
+.theme {
+	width: 850px;
+	height: auto;
+	margin: 10px 10px 30px 7px;
+	clear: both;
+}
+
+.polaroid {
+	position: relative;
+	width: 110px;
+	height: 110px;
+	margin: 0px 14px 7px 14px;
+	background-color: #ccc;
+	top: 14px;
+}
+
+.polaroid img {
+	width: 110px;
+	height: 110px;
+}
+
+.polaroid-frame {
+	width: 138px;
+	height: 160px;
+	margin: 10px 10px 15px 20px;
+	background-color: #fff;
+	border: 2px solid #ccc;
+	float: left;
+}
+
+.catalogue {
+	position: relative;
+	width: 650px;
+	margin: 10px 10px 15px 15px;
+
+	float: left;
+}
+
+.series {
+	background-color: #fff;	
+	border: 2px dashed #B0B0B0;
+	margin: 0px 0px 16px 0px;
+	padding-bottom: 7px;
+}
+
+.series-title {
+	color: #909090;
+	font-size: 22px;
+	margin: 7px 0px 9px 9px;
+}
+
+.series-intro {
+	color: #707070 ;
+	margin: 0px 40px 17px 18px;
+	line-height: 1.4em;
+}
+
+.article {	
+	margin: 12px 20px 15px 26px;
+}
+
+.article-title {
+	margin: 0px 0px 7px -7px;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.article-intro {
+	font-size: 16px;
+	color: #303030;
+	line-height: 1.4em;
+	
+}
+
+.keyword {
+	position: relative;
+	font-size: 14px;
+	color: black;
+	text-align: center;
+	margin: 11px 14px 7px 14px;
+	top: 12px;
+	font-weight: bold;
+	font-variant: small-caps; 
+}
+
+.line-break {
+	margin-bottom: 20px;
+}
+
